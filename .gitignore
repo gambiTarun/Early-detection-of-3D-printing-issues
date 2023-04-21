@@ -2,3 +2,4 @@
 *.jpg
 submission.csv
 *.pyc
+*.DS_Store
