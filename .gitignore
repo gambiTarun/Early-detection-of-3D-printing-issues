@@ -1,0 +1,4 @@
+*.ckpt
+*.jpg
+submission.csv
+*.pyc
