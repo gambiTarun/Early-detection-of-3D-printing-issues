@@ -15,4 +15,5 @@ This model achieves a test accuracy of around 74%.
 
 ## Reference
 * Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Cheng Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang: “Residual Attention Network for Image Classification”, 2017; [http://arxiv.org/abs/1704.06904 arXiv:1704.06904].
+
 * Brion DAJ, Pattinson SW. [Generalisable 3D printing error detection and correction via multi-head neural networks.] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9378646/pdf/41467_2022_Article_31985.pdf) Nat Commun. 2022 Aug 15;13(1):4654. doi: 10.1038/s41467-022-31985-y. PMID: 35970824; PMCID: PMC9378646. 
