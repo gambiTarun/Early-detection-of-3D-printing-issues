@@ -3,9 +3,33 @@ This is the repository for my attempt at this [Kaggle Competition](https://www.k
 
 # Attempts
 
+## Dataset
+
+### Dataset Description
+This project involves a dataset containing images from 7 different 3D printers. For each 3D printer, there are between 6 to 20 prints, with each print having a series of snapshots taken from the nozzle camera approximately every 0.5 seconds.
+
+Each print is labelled as either a "good print" or one purposefully set to produce "under extrusion". It is important to note that all snapshots within the same print share the same label.
+
+### Objective
+The goal is to build a Machine Learning model that can accurately classify the images into "good print" or "under extrusion". The challenge here is to avoid overfitting, where the model performs well on the training data but fails to generalize to unseen data.
+
+### Dataset Files
+train.csv - The training data set of over 81000 labeled images
+test.csv - The test data set of over 25000 unlabeled images
+sample_submission.csv - A sample submission file in the correct format
+images - Folders for the images, named after the printer IDs.
+
+### Columns in the Dataset
+img_path - The path of the snapshot.
+printer_id - The ID of the 3D printer. It can be used during training, but not allowed during testing.
+print_id - The ID of the print. It can be used during training, but not allowed during testing.
+has_under_extrusion - The label for the image. 1 means under extrusion is present, while 0 means the image shows a good print.
+
+Note: printer_id and print_id are not to be used during testing as they are highly correlated to the ground truth and would result in overfitting to the characteristics of specific printers or prints.
+
 ## Custom CNN module
 
-I tried a simple CNN architecture achieving test accuracy of around 64%. Model consists of CNN layers, Max pool layers, and Fully connected layers.
+I trained a simple CNN architecture model achieving test accuracy of around 64%. Model consists of CNN layers, Max pool layers, and Fully connected layers.
 
 ## Residual Attention Module
 
