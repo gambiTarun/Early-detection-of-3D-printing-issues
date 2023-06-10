@@ -14,10 +14,10 @@ Each print is labelled as either a "good print" or one purposefully set to produ
 The goal is to build a Machine Learning model that can accurately classify the images into "good print" or "under extrusion". The challenge here is to avoid overfitting, where the model performs well on the training data but fails to generalize to unseen data.
 
 ### Dataset Files
-train.csv - The training data set of over 81000 labeled images
-test.csv - The test data set of over 25000 unlabeled images
-sample_submission.csv - A sample submission file in the correct format
-images - Folders for the images, named after the printer IDs.
+- train.csv : The training data set of over 81000 labeled images
+- test.csv : The test data set of over 25000 unlabeled images
+- sample_submission.csv : A sample submission file in the correct format
+- images : Folders for the images, named after the printer IDs.
 
 ### Columns in the Dataset
 img_path - The path of the snapshot.
